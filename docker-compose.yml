@@ -1,0 +1,6 @@
+services:
+  tetris:
+    image: leroy/tetris
+    container_name: tetris
+    ports:
+      - "8083:3000"
